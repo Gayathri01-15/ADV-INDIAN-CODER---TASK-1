@@ -1,0 +1,90 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cac8c8;
+    margin: 0;
+    padding: 0;
+}
+
+header, section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: #333;
+}
+
+.head {
+    text-align: center;
+    background-color: rgb(173, 180, 187);
+}
+.event-details{
+    background-color: rgb(218, 218, 219);
+    
+}
+
+
+h2 {
+    color: #221c1c;
+}
+
+p {
+    color: #3f0b0b;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+.car-details{
+    background-color: rgb(218, 218, 219);
+}
+.registration-form{
+    background-color: rgb(218, 218, 219);
+}
